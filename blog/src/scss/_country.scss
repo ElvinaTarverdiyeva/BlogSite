@@ -1,0 +1,163 @@
+.country{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    top: 50px;
+    h1{
+        font-family: 'Pacifico', cursive;
+        border-bottom-style: double;
+        width: 200px;
+        padding-left:30px;
+        position: absolute;
+        left: 2px;
+        top: -5%;
+        color: #a55eea;
+        transform: rotate(345deg);
+    }
+    h2{
+        text-align: center;
+        margin-top: 120px;
+        font-family: 'Parisienne', cursive;
+    }
+    h3{
+        margin-left: 65%;
+        font-family: 'Pacifico', cursive;
+    }
+    .aboutdiv{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .countryitem{
+            margin-bottom: 50px;
+            width: 43%;
+            height: 620px;
+            position: relative;
+            
+            overflow: hidden;
+            .div1{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                border-top: 4px double #a55eea;
+                border-left: 4px double #a55eea;
+                border-radius: 10px 0;
+                z-index: 1;
+            }
+            .div2{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                border-bottom: 4px double #a55eea;
+                border-right:4px double #a55eea;
+                border-radius: 10px 0;
+                right: 0px;
+                bottom: 0;
+                z-index: 1;
+            }
+            .divIn{
+                background: rgb(228,228,228);
+background: linear-gradient(357deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 100%);
+                 width: 95%;
+                height: 590px;
+                border-radius:10px;
+                margin-left:2.5%;
+                margin-top: 2.5%;
+                position: relative;
+                overflow: hidden;
+
+            img{
+                position: relative;
+                width: 100%;
+                border-radius: 10px 10px 0 0;
+                height: 300px;
+                transition: 0.5s;
+                &:hover{
+                   filter: brightness(1.3);
+                }
+        }
+            h6{
+                position: absolute;
+                z-index: 3;
+                top: 43%;
+                left: 6%;
+                color: rgb(197, 196, 196);
+                border-bottom-style: double;
+                padding-bottom: 3px;
+            }
+            h3{
+                margin-left: 0;
+                font-family: 'Pacifico', cursive;
+                margin-top: 20px;
+                text-align: center;
+                color: #a55eea;
+            }
+            p{
+                font-family: 'Parisienne', cursive;
+                font-size: 23px;
+                margin: 20px 20px 5px 20px;
+            }
+            h4{
+                margin-left: 60%;
+                font-family: 'Pacifico', cursive;
+            }
+            .like{
+                width: 500px;
+                margin-left: 15px;
+                height: 45px;
+                position: absolute;
+                z-index: 5;
+                bottom: 11%;
+                hr{
+                    margin-top: -25px;
+                }
+                ul{
+                    margin-top: -15px;
+                    margin-bottom: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    li{
+                        list-style: none;
+                        margin-top: 5px;
+                        cursor: pointer;
+                        span{
+                            margin-left: 6px;
+                            margin-right:18px ;
+                        }
+                        &:nth-child(1){
+                            margin-left: 65%;
+                         
+                        }
+                    }
+                }
+            }
+            button{
+                position: absolute;
+                bottom:6%;
+                left: 65%;
+                z-index: 3;
+                padding:5px 30px;
+                border-radius: 20px;
+                font-family: 'Lobster', cursive; 
+                font-size: 20px;
+                background-color: transparent;
+                transition: 0.5s;
+                color: #a55eea;
+                &:hover{
+                    color: white;
+                    background-color:#a55eea;
+                    border-color: #a55eea;
+            
+                }
+
+            }
+
+        }
+    }
+
+    }
+}
+
+  
